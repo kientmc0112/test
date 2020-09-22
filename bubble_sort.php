@@ -8,6 +8,9 @@ function swap(&$a, &$b) {
 	$b = $temp;
 }
 $length = count($arr);
+/**
+ * Chạy cho đến khi không còn 2 phần tử nào đổi chỗ cho nhau
+ */
 while ($flag) {
 	$flag = false;
 	for ($i = 0; $i < $length-1; $i++) {
